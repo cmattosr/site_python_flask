@@ -1,1 +1,1 @@
-web: gunicorn meu_ste:app
+web: gunicorn meu_site:app
