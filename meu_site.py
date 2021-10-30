@@ -15,9 +15,8 @@ def contatos():
 def usuarios(nome_usuario):
     return render_template("usuarios.html", nome_usuario_html=nome_usuario)
 
-
-
 #colocar o site no ar
 #o parâmetro debug=True faz com que não seja necessário reiniciar o serviço para verificar alterações no site
+
 if __name__ == "__main__":
     app.run(debug=True)
